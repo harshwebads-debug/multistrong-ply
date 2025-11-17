@@ -22,6 +22,11 @@ body>svg {
     overflow: hidden !important;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 
 /* ------------------ COLOR PALETTE ------------------ */
 
