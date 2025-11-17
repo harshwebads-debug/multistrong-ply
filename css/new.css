@@ -1391,6 +1391,26 @@ body {
     gap: 40px;
 }
 
+
+/* Tablet (max-width: 992px) → 2 columns */
+
+@media (max-width: 992px) {
+    .msp-footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+
+/* Mobile (max-width: 600px) → 1 column */
+
+@media (max-width: 600px) {
+    .msp-footer-links {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
 .msp-column h4 {
     font-size: 18px;
     font-weight: 600;
